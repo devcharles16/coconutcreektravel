@@ -7,7 +7,7 @@
     <meta name="keywords" content="Foodeiblog, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coconut Creek Travel</title>
+    <title>Foodeiblog | Template</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap"
@@ -23,11 +23,82 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-<body>
+<body class="fixed-position">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
+
+    <!-- Sign In Section Begin -->
+    <div class="signin">
+        <div class="signin__warp">
+            <div class="signin__content">
+                <div class="signin__logo">
+                    <a href="#"><img src="img/siign-in-logo.png" alt=""></a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore dolore
+                    magna aliqua viverra.</p>
+                <div class="signin__form">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab" aria-selected="false">
+                                Sign up
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab" aria-selected="false">
+                                Sign in
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                            <div class="signin__form__text">
+                                <p>with your social network :</p>
+                                <div class="signin__form__signup__social">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="google"><i class="fa fa-google"></i></a>
+                                </div>
+                                <div class="divide">or</div>
+                                <form action="#">
+                                    <input type="text" placeholder="User Name*">
+                                    <input type="text" placeholder="Password">
+                                    <input type="text" placeholder="Confirm Password">
+                                    <input type="text" placeholder="Email Address">
+                                    <input type="text" placeholder="Full Name">
+                                    <label for="sign-agree-check">
+                                        I agree to the terms & conditions
+                                        <input type="checkbox" id="sign-agree-check">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <button type="submit" class="site-btn">Register Now</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+                            <div class="signin__form__text">
+                                <p>with your social network :</p>
+                                <div class="signin__form__signup__social">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="google"><i class="fa fa-google"></i></a>
+                                </div>
+                                <div class="divide">or</div>
+                                <form action="#">
+                                    <input type="text" placeholder="User Name*">
+                                    <input type="text" placeholder="Password">
+                                    <button type="submit" class="site-btn">Sign In</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign In Section End -->
 
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
@@ -38,19 +109,10 @@
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Hotels</a></li>
-                <li><a href="#">Cruises</a></li>
-                <li><a href="#">All Inclusives</a></li>
-                <li class="dropdown"><a href="#">Pages</a>
-                    <ul class="dropdown__menu">
-                        <li><a href="./categories-grid.html">Categories Grid</a></li>
-                        <li><a href="./categories-list.html">Categories List</a></li>
-                        <li><a href="./single-post.html">Single Post</a></li>
-                        <li><a href="./signin.html">Sign In</a></li>
-                        <li><a href="./404.html">404</a></li>
-                        <li><a href="./typography.html">Typography</a></li>
-                    </ul>
-                </li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Dinner</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Vegan</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
@@ -61,8 +123,9 @@
                 <h6>About me</h6>
             </div>
             <img src="img/humberger/humberger-about.jpg" alt="">
-            <h6>Hi, everyone! I"m Zuri</h6>
-            <p>I hope you find lots of travel inspiration here.</p>
+            <h6>Hi every one! I,m Lena Mollein.</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
             <div class="humberger__menu__about__social sidebar__item__follow__links">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -102,75 +165,66 @@
                     <div class="col-lg-8 col-md-10 order-md-2 order-3">
                         <nav class="header__menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="#">Hotels</a>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="#">Recipes</a>
                                     <div class="header__megamenu__wrapper">
                                         <div class="header__megamenu">
                                             <div class="header__megamenu__item">
                                                 <div class="header__megamenu__item--pic set-bg"
                                                     data-setbg="img/megamenu/p-1.jpg">
-                                                    <div class="label">All-Inclusives</div>
+                                                    <div class="label">Vegan</div>
                                                 </div>
                                                 <div class="header__megamenu__item--text">
-                                                    <h5><a href="#">Get the most out of your money</a>
+                                                    <h5><a href="#">How to Make a Milkshake With Any Ice Cream ...</a>
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div class="header__megamenu__item">
                                                 <div class="header__megamenu__item--pic set-bg"
                                                     data-setbg="img/megamenu/p-2.jpg">
-                                                    <div class="label">Luxury</div>
+                                                    <div class="label">Vegan</div>
                                                 </div>
                                                 <div class="header__megamenu__item--text">
-                                                    <h5><a href="#">Travel in Style</a>
+                                                    <h5><a href="#">How to Make a Milkshake With Any Ice Cream ...</a>
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div class="header__megamenu__item">
                                                 <div class="header__megamenu__item--pic set-bg"
                                                     data-setbg="img/megamenu/p-3.jpg">
-                                                    <div class="label">Exclusive Experiences</div>
+                                                    <div class="label">Vegan</div>
                                                 </div>
                                                 <div class="header__megamenu__item--text">
-                                                    <h5><a href="#">Unique Travel Experiences for Everyone</a>
+                                                    <h5><a href="#">How to Make a Milkshake With Any Ice Cream ...</a>
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div class="header__megamenu__item">
                                                 <div class="header__megamenu__item--pic set-bg"
                                                     data-setbg="img/megamenu/p-4.jpg">
-                                                    <div class="label">American Express</div>
+                                                    <div class="label">Vegan</div>
                                                 </div>
                                                 <div class="header__megamenu__item--text">
-                                                    <h5><a href="#">See benefits when you book with your AMEX card ...</a>
+                                                    <h5><a href="#">How to Make a Milkshake With Any Ice Cream ...</a>
                                                     </h5>
                                                 </div>
                                             </div>
                                             <div class="header__megamenu__item">
                                                 <div class="header__megamenu__item--pic set-bg"
                                                     data-setbg="img/megamenu/p-5.jpg">
-                                                    <div class="label">Packages</div>
+                                                    <div class="label">Vegan</div>
                                                 </div>
                                                 <div class="header__megamenu__item--text">
-                                                    <h5><a href="#">Book Vacation Packages for Special Pricing and More</a>
+                                                    <h5><a href="#">How to Make a Milkshake With Any Ice Cream ...</a>
                                                     </h5>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li><a href="#">Cruises</a></li>
-                                <li><a href="#">Vacation Packages</a></li>
-                                <!--<li class="dropdown"><a href="#">Pages</a>
-                                    <ul class="dropdown__menu">
-                                        <li><a href="./categories-grid.html">Categories Grid</a></li>
-                                        <li><a href="./categories-list.html">Categories List</a></li>
-                                        <li><a href="./single-post.html">Single Post</a></li>
-                                        <li><a href="./signin.html">Sign In</a></li>
-                                        <li><a href="./404.html">404</a></li>
-                                        <li><a href="./typography.html">Typography</a></li>
-                                    </ul>
-                                </li>-->
+                                <li><a href="#">Dinner</a></li>
+                                <li><a href="#">Desserts</a></li>
+                                <li><a href="#">Vegan</a></li>
                                 <li><a href="./about.html">About</a></li>
                                 <li><a href="./contact.html">Contact</a></li>
                             </ul>
@@ -188,12 +242,12 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__btn">
-                        <a href="./signin.html" class="primary-btn">Subscribe</a>
+                        <a href="#" class="primary-btn">Subscribe</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo1.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3">
@@ -218,18 +272,19 @@
                     <div class="row">
                         <div class="col-lg-6 p-0">
                             <div class="hero__inside__item hero__inside__item--wide set-bg"
-                                data-setbg="img/hero/hotelroom.jpg">
+                                data-setbg="img/hero/hero-1.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
                                         <p>Aug</p>
-                                    </div>
+                                    </div>s-
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Hotels</li>
-                                            <li>All-Inclusives</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h4>All the Food and Drinks You Need<br /> For an Awesome Vacation</h4>
+                                        <h4>Vegan White Peach Mug Cobbler With CardamomVegan<br /> White Peach Mug
+                                            Cobbler With Cardamom</h4>
                                         <ul class="widget">
                                             <li>by <span>Admin</span></li>
                                             <li>3 min read</li>
@@ -239,9 +294,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6  p-0">
+                        <div class="col-lg-3 p-0">
                             <div class="hero__inside__item hero__inside__item--small set-bg"
-                                data-setbg="img/hero/suitcase.jpg">
+                                data-setbg="img/hero/hero-2.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -249,15 +304,15 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Caribbean</li>
-                                            <li>Vacation</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h5>Pack Effectively for Your Trip <br />Avoid Extra Baggage Fees...</h5>
+                                        <h5>How to Make a Milkshake With Any <br />Ice Cream, Any Toppings...</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="hero__inside__item hero__inside__item--small set-bg"
-                                data-setbg="img/hero/beachdrink.jpg">
+                                data-setbg="img/hero/hero-3.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -265,16 +320,16 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Caribbean</li>
-                                            <li>Vacation</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h5>Top 10 Island Destinations <br />Beaches and Daiquiris</h5>
+                                        <h5>Vintage Copper Preserve Pan with <br />Brass Handles, Mid 19th Century</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6  p-0">
-                            <div class="hero__inside__item set-bg" data-setbg="img/hero/salad.jpg">
+                        <div class="col-lg-3 p-0">
+                            <div class="hero__inside__item set-bg" data-setbg="img/hero/hero-4.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -282,10 +337,10 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Health</li>
-                                            <li>Vacation</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <a href="healthyeating.html"><h5>Eating Healthy While <br />On Vacation</h5></a>
+                                        <h5>Marinated Lentil Salad with Zucch <br />ini and Tomatoes</h5>
                                     </div>
                                 </div>
                             </div>
@@ -298,7 +353,7 @@
                     <div class="row">
                         <div class="col-lg-6 p-0">
                             <div class="hero__inside__item hero__inside__item--wide set-bg"
-                                data-setbg="img/hero/buffet.jpg">
+                                data-setbg="img/hero/hero-1.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -306,10 +361,11 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Hotels</li>
-                                            <li>Luxury</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h4>Luxury and Comfort<br /> Travel with Class</h4>
+                                        <h4>Vegan White Peach Mug Cobbler With CardamomVegan<br /> White Peach Mug
+                                            Cobbler With Cardamom</h4>
                                         <ul class="widget">
                                             <li>by <span>Admin</span></li>
                                             <li>3 min read</li>
@@ -319,9 +375,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 p-0">
+                        <div class="col-lg-3 p-0">
                             <div class="hero__inside__item hero__inside__item--small set-bg"
-                                data-setbg="img/hero/beachdrink.jpg">
+                                data-setbg="img/hero/hero-3.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -329,15 +385,15 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Caribbean</li>
-                                            <li>Vacation</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h5>Top 10 Island Destinations<br />Leave Winter Behind</h5>
+                                        <h5>How to Make a Milkshake With Any <br />Ice Cream, Any Toppings...</h5>
                                     </div>
                                 </div>
                             </div>
                             <div class="hero__inside__item hero__inside__item--small set-bg"
-                                data-setbg="img/hero/Maldives.jpg">
+                                data-setbg="img/hero/hero-2.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -345,16 +401,16 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Caribbean</li>
-                                            <li>Vacation</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h5>Unique Island Destinations <br />You May Not Know About</h5>
+                                        <h5>Vintage Copper Preserve Pan with <br />Brass Handles, Mid 19th Century</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 p-0">
-                            <div class="hero__inside__item set-bg" data-setbg="img/hero/waterfall.jpg">
+                        <div class="col-lg-3 p-0">
+                            <div class="hero__inside__item set-bg" data-setbg="img/hero/hero-4.jpg">
                                 <div class="hero__inside__item__text">
                                     <div class="hero__inside__item--meta">
                                         <span>08</span>
@@ -362,10 +418,10 @@
                                     </div>
                                     <div class="hero__inside__item--text">
                                         <ul class="label">
-                                            <li>Caribbean</li>
-                                            <li>Vacation</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
-                                        <h5>The Island of Dominica<br />Land of 365 Rivers</h5>
+                                        <h5>Marinated Lentil Salad with Zucch <br />ini and Tomatoes</h5>
                                     </div>
                                 </div>
                             </div>
@@ -384,7 +440,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
                         <div class="categories__hover__text">
-                            <h5>Hotels</h5>
+                            <h5>Dinner</h5>
                             <p>28 articles</p>
                         </div>
                     </div>
@@ -392,7 +448,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
                         <div class="categories__hover__text">
-                            <h5>Cruises</h5>
+                            <h5>Dinner</h5>
                             <p>28 articles</p>
                         </div>
                     </div>
@@ -400,7 +456,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
                         <div class="categories__hover__text">
-                            <h5>All Inclusives</h5>
+                            <h5>Dinner</h5>
                             <p>28 articles</p>
                         </div>
                     </div>
@@ -408,7 +464,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
                         <div class="categories__hover__text">
-                            <h5>Vacation Packages</h5>
+                            <h5>Dinner</h5>
                             <p>28 articles</p>
                         </div>
                     </div>
@@ -429,18 +485,22 @@
                             </div>
                             <div class="categories__post__item__text">
                                 <ul class="post__label--large">
-                                    <li>Caribbean</li>
-                                    <li>Vacations</li>
+                                    <li>Vegan</li>
+                                    <li>Desserts</li>
                                 </ul>
-                                <h3><a href="#">Why you should take your vacation, According to Wayyy Too
-                                        Many Studies</a></h3>
+                                <h3><a href="#">The Absolute Best Way to Cook Steak Perfectly, According to Wayyy Too
+                                        Many Tests</a></h3>
                                 <ul class="post__widget">
                                     <li>by <span>Admin</span></li>
                                     <li>3 min read</li>
                                     <li>20 Comment</li>
                                 </ul>
-                                <p>Americans have the least vacation time and are also more likely not to use it, according to some studies......</p>
-                                <a href="alaskacruise.html" class="primary-btn">Read more</a>
+                                <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+                                    excepteur sint ...</p>
+                                <a href="#" class="primary-btn">Read more</a>
                                 <div class="post__social">
                                     <span>Share</span>
                                     <a href="#"><i class="fa fa-facebook"></i> <span>82</span></a>
@@ -450,7 +510,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="categories__post__item">
                                     <div class="categories__post__item__pic small__item set-bg"
                                         data-setbg="img/categories/categories-post/cp-2.jpg">
@@ -460,17 +520,19 @@
                                         </div>
                                     </div>
                                     <div class="categories__post__item__text">
-                                        <span class="post__label">American Express</span>
-                                        <h3><a href="#">The Best Benefits when you travel</a></h3>
+                                        <span class="post__label">Recipe</span>
+                                        <h3><a href="#">The Best Weeknight Baked Potatoes, 3 Creative Ways</a></h3>
                                         <ul class="post__widget">
                                             <li>by <span>Admin</span></li>
                                             <li>3 min read</li>
-                                            <li>20 Comments</li>
+                                            <li>20 Comment</li>
                                         </ul>
-                                        <p>Lounges and free food and drinks. Well worth it</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                            gravida...</p>
                                     </div>
                                 </div>
-                               <!-- <div class="categories__post__item">
+                                <div class="categories__post__item">
                                     <div class="categories__post__item__pic set-bg"
                                         data-setbg="img/categories/categories-post/cp-4.jpg">
                                         <div class="post__meta">
@@ -480,8 +542,8 @@
                                     </div>
                                     <div class="categories__post__item__text">
                                         <ul class="post__label--large">
-                                            <li>Alaska</li>
-                                            <li>Vacations</li>
+                                            <li>Vegan</li>
+                                            <li>Desserts</li>
                                         </ul>
                                         <h3><a href="#">The Best Grass Stain Remover Is Already In Your Pantry</a></h3>
                                         <ul class="post__widget">
@@ -489,13 +551,9 @@
                                             <li>3 min read</li>
                                             <li>20 Comment</li>
                                         </ul>
-                                        <p>Exotic wildlife, massive glaciers, exciting land tours & so much more
-
- Lose yourself in the pure perfection that is Alaska. There is only one destination that can fill your soul with tremendous warmth while simultaneously 
-surrounding you with earth’s most arctic element. Catch sight of a humpback whale or wolf pups frolicking in the snow, discover a nesting eagle high in 
-a Sitka spruce or observe a family of brown bears foraging along a rocky beach. This is one of life’s greatest adventures. From the awe-inspiring blue ice
- of the massive glacial field of Hubbard Glacier to the pioneering spirit of Juneau, the gold-rush spirit of Skagway and the totem poles of Ketchikan, this is everything you ever imagined
- — and you traveled so far to see. Maybe you will even get lucky enough to see Aurora Borealis Alaska. You can enjoy the beauties of Alaska by Sea or by land.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                            gravida...</p>
                                     </div>
                                 </div>
                                 <div class="categories__post__item__plain set-bg"
@@ -541,7 +599,7 @@ a Sitka spruce or observe a family of brown bears foraging along a rocky beach. 
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="categories__post__item">
                                     <div class="categories__post__item__pic smaller__large set-bg"
                                         data-setbg="img/categories/categories-post/cp-3.jpg">
@@ -700,7 +758,7 @@ a Sitka spruce or observe a family of brown bears foraging along a rocky beach. 
                                         </div>
                                     </div>
                                 </div>
-                            </div>-->
+                            </div>
                             <div class="sidebar__item__banner">
                                 <img src="img/sidebar/banner.jpg" alt="">
                             </div>
@@ -709,14 +767,14 @@ a Sitka spruce or observe a family of brown bears foraging along a rocky beach. 
                                     <h6>Categories</h6>
                                 </div>
                                 <ul>
-                                    <li><a href="#">Hotels <span>128</span></a></li>
-                                    <li><a href="#">Cruises <span>32</span></a></li>
-                                    <li><a href="#">All Inclusives <span>86</span></a></li>
-                                    <li class="p-left"><a href="#">Beaches <span>25</span></a></li>
-                                    <li class="p-left"><a href="#">Sandals <span>36</span></a></li>
-                                    <li class="p-left"><a href="#">More.... <span>15</span></a></li>
-                                    <li><a href="#">Exotic Places <span>63</span></a></li>
-                                    <li><a href="#">World Heritage Sites <span>27</span></a></li>
+                                    <li><a href="#">Recipes <span>128</span></a></li>
+                                    <li><a href="#">Dinner <span>32</span></a></li>
+                                    <li><a href="#">Dessert <span>86</span></a></li>
+                                    <li class="p-left"><a href="#">Smothie <span>25</span></a></li>
+                                    <li class="p-left"><a href="#">Drinks <span>36</span></a></li>
+                                    <li class="p-left"><a href="#">Cakes <span>15</span></a></li>
+                                    <li><a href="#">Vegan <span>63</span></a></li>
+                                    <li><a href="#">Weightloss <span>27</span></a></li>
                                 </ul>
                             </div>
                             <div class="sidebar__subscribe__item">
@@ -751,8 +809,8 @@ a Sitka spruce or observe a family of brown bears foraging along a rocky beach. 
                         <img src="img/footer/instagram-avatar.jpg" alt="">
                     </div>
                     <div class="footer__instagram__avatar--text">
-                        <h5>@ coconutcreektravel</h5>
-                        <span>23.7k follower</span>
+                        <h5>@ foodieblog</h5>
+                        <span>23,7k follower</span>
                     </div>
                 </div>
                 <div class="row">
@@ -778,28 +836,23 @@ a Sitka spruce or observe a family of brown bears foraging along a rocky beach. 
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__text">
-                        <div class="footer__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <p>Travel Makes Everyone Happy<br /> So just do it!<br /> Or Always Wish You Did </p>
-                        <div class="footer__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#"><i class="fa fa-envelope-o"></i></a>
-                        </div>
-                    </div>
-                    <div class="footer__copyright">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
+            <div class="footer__text">
+                <div class="footer__logo">
+                    <a href="#"><img src="img/logo1.png" alt=""></a>
+                </div>
+                <p>Travel Makes Everyone Happy<br /> So just do it!<br /> Or Always Wish You Did </p>
+                <div class="footer__social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-envelope-o"></i></a>
                 </div>
             </div>
+            <div class="footer__copyright">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         </div>
     </footer>
     <!-- Footer Section End -->
